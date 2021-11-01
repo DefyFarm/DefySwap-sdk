@@ -1,17 +1,20 @@
 {
-  "name": "@pancakeswap/sdk",
+  "name": "@defyswap/sdk",
   "license": "MIT",
-  "version": "2.4.0",
-  "description": "🛠 An SDK for building applications on top of Pancakeswap.",
+  "version": "1.1.0",
+  "description": "SDK for building applications on top of DefySwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-swap-sdk.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefyFarm/DefySwap-sdk.git"
+  },
   "keywords": [
-    "pancakeswap",
-    "bsc"
+    "DefySwap",
+    "Fantom"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -55,5 +58,13 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/DefyFarm/DefySwap-sdk/issues"
+  },
+  "homepage": "https://github.com/DefyFarm/DefySwap-sdk#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "DefySwap"
 }
